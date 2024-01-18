@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+$c-primary: var(--tui-primary);
+
+.test-1 {
+    --tui-font-text: 'Comic Sans MS', cursive;
+    --tui-font-text-m: bold 1rem/1.5rem var(--tui-font-text);
+    --tui-font-text-s: normal 0.5rem/1.25rem var(--tui-font-text);
+    --tui-primary: #c86dd7;
+    --tui-primary-hover: #a456b1;
+    --tui-primary-active: #7f3b8a;
+    --tui-primary-text: #fff;
+
+}
+.test-2 {
+  --tui-font-text: 'Comic Sans MS', cursive;
+  --tui-font-text-m: bold 1rem/1.5rem var(--tui-font-text);
+  --tui-font-text-s: normal 0.5rem/1.25rem var(--tui-font-text);
+  --tui-primary: #74d76d;
+  --tui-primary-hover: #5fb156;
+  --tui-primary-active: #408a3b;
+  --tui-primary-text: #fff;
+}
+
